@@ -8,7 +8,7 @@ public class CardsStorage {
 /*    static CharacterClass[] characters={new CharacterClass(1),
                                         new CharacterClass(2)
     };*/
-    static CardClass[]cards={new CardClass(1,"Відьма", CardClass.CardType.CHARACTER,
+    static CardClass[]cards={new CardClass(1, "witch_character","Відьма",CardClass.CardCategory.CHARACTER,
             CardClass.CardInfluenceType.REPUTATION.toString()+" -1.\n"+
                     CardClass.CardInfluenceType.HEALTH.toString()+" 5\n" +
                     CardClass.CardInfluenceType.GOLD.toString()+" 1\n" +
@@ -20,7 +20,7 @@ public class CardsStorage {
                     CardClass.CardInfluenceType.SPELLCONSTANT.toString()+" +1\n" +
                     CardClass.CardInfluenceType.INITIALFIELD.toString()+" Темний ліс\n",
             "Молода та амбітна відьма вирішила покинути лісову гущавину, де жила зі своєю бабусею-наставницею, у пошуках визнання, слави, кохання та ще хто їх відьом знає чого. Комусь напаскудити вона ще не встигла, але у наш час на відьом і так косо дивляться. Та й на жабу нікого поки що не перетворила. Поки що… \n"),
-        new CardClass(2,"Харциз",CardClass.CardType.CHARACTER,
+        new CardClass(2, "thief_character","Харциз",CardClass.CardCategory.CHARACTER,
             CardClass.CardInfluenceType.REPUTATION.toString()+" -2\n"+
                 CardClass.CardInfluenceType.HEALTH.toString()+" 5\n" +
                 CardClass.CardInfluenceType.GOLD.toString()+" 1\n" +

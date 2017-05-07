@@ -5,7 +5,7 @@ package com.example.user.wonderlandapp;
  */
 
 public class CardClass {
-    public enum CardType {
+    public enum CardCategory {
         CHARACTER,
         SPELL,
         ABILITY,
@@ -45,50 +45,43 @@ public class CardClass {
     }
 
     private int id;
+    private String image;
     private String name;
-    private String features;
-    private CardType category;
+    private String bonuses;
+    private CardCategory category;
     private String description;
 
-    public CardClass(int newid, String newname, CardType newcategory, String newfeatures, String newdescription){
+    public CardClass(int newid, String newimage, String newname, CardCategory newcategory, String newbonuses, String newdescription){
 id=newid;
+        image=newimage;
         name=newname;
         category=newcategory;
-        features=newfeatures;
+        bonuses =newbonuses;
         description=newdescription;
-
     }
-
-
-/*    public int getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public String getImage() {
+        return image;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public CardCategory getCategory() {
+        return category;
+    }
+
+    public String getBonuses() {
+        return bonuses;
     }
 
     public String getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
 
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }*/
 }
