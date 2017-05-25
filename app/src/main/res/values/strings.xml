@@ -3,5 +3,21 @@
     <string name="title_activity_state">StateActivity</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="reputation">Reputation</string>
+
+    <string name="health">%1$d/%2$d</string>
+    <string name="gold">%1$d</string>
+    <string name="inventory">%1$d/%2$d</string>
+    <string name="magic">%1$d/%2$d</string>
+    <string name="magicweaponmastery">%1$d</string>
+    <string name="spells">%1$d/%2$d/%3$d/%4$d</string>
+    <string name="might">%1$d/%2$d</string>
+    <string name="mightweaponmastery">%1$d</string>
+    <string name="abilities">%1$d/%2$d/%3$d/%4$d</string>
+    <string name="reputation">%1$d/[%2$d;%3$d]</string>
+    <string name="support">%1$d</string>
+    <string name="tricks">%1$d/%2$d/%3$d/%4$d</string>
+
+    <string name="choosecharacter">Please, input number of your character</string>
+    <string name="cardnumbernotfound">Sorry, card with this number doesn\'t exist</string>
+
 </resources>
